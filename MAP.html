@@ -1,0 +1,13 @@
+<!-- Image container -->
+<img id="myImage" src="your-image.png" alt="Game Image" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 80%; height: auto; z-index: 1000;">
+
+<script>
+  // Function to show the image
+  function showGameImage() {
+    const img = document.getElementById("myImage");
+    img.style.display = "block";
+  }
+
+  // Example: Call this when your game ends
+  // showGameImage();
+</script>
